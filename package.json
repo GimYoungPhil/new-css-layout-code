@@ -1,0 +1,11 @@
+{
+  "name": "new-css-layout-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GimYoungPhil/new-css-layout-code.git",
+  "author": "GimYoungPhil <youngphil.gim@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "python -m SimpleHTTPServer 8080"
+  }
+}
