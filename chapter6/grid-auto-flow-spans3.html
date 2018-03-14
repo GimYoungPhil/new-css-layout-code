@@ -6,13 +6,17 @@
   <link rel="stylesheet" href="../assets/css/common.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
   <style>
+    .example {
+      max-width: 900px;
+    }
     .cards {
       margin: 0;
       padding: 0;
+      grid-gap: 20px;
       list-style: none;
       display: grid;
-      grid-gap: 20px;
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      grid-auto-flow: dense;
     }
     .cards li {
       background-color: #edf2ff;
@@ -27,9 +31,6 @@
     .cards .landscape {
       grid-column: auto / span 2;
     }
-    .cards li:nth-child(1) {
-      order: 10;
-    }
   </style>
 </head>
 <body id="ch1">
@@ -41,7 +42,7 @@
       <li class="index"><a href="../">Index of examples</a></li>
     </ul>
     <div class="inner">
-      <h1>auto-flow with order</h1>
+      <h1>auto-flow with spans</h1>
     </div>
   </header>
   <div class="example">
